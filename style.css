@@ -6,6 +6,7 @@
                 display: flex;
                 align-content: center;
             }
+
             main{
                 /* display:flex
                 text-align: center; */
@@ -15,15 +16,6 @@
                 padding: 5px 5px 5px 50px; */
             }      
 
-            /* #launchGame{
-                /* display:flex
-                text-align: center; */
-                margin: 80px 80px 80px 80px;
-                color: white;
-               text-size: 180px;
-                /* border:dotted;
-                padding: 5px 5px 5px 50px; */
-            } */
 
             #startButton{
                 color:black;
@@ -33,7 +25,6 @@
                 justify-content: center;
             }
 
-/* ///df8***************************************************/ * 
 
             #startingPage {
                 width: 400px;

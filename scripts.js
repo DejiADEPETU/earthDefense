@@ -1,18 +1,17 @@
-function myFunction(){
-    let txt=1;
-    if (confirm("STATUS: fire Power is 80%, Hull integrity @ 100% Shoot@Will")){
+function startGame(){
+    let playerHealth=1;     // This variable determines the Player is alive or dead
+    if ( playerHealth > 0){
+        confirm("STATUS: fire Power is 80%, Hull integrity @ 100% Shoot@Will")
         console.log("You Fired on the Aliens");
-        txt="You Fired on the Aliens";
-        document.getElementById("launchGame").innerHTML = txt;
     } else {
         console.clear();
-        txt = "Game Over!";
-        document.getElementById("launchGame").innerHTML = txt;
-    };
-
-console.log("Define all variables, objects and functions at this point")
+        playerHealth = "Game Over!";
+        };
+    
+    ("Define all variables, objects and functions at this point")
 }
-/*
+
+
 var ussAnorld = {
     hull : hullValue,
     firePower : fireValue,
@@ -37,7 +36,8 @@ let alienShip={
 
 
 // Create Input buttons:
-let fiRe = document).createElement("input");
+let fiRe = (document).createElement("input");
+
 fiRe.setAttribute('type','submit');
 fiRe.setAttribute('value','Launch Missille');
 fiRe.setAttribute('onclick','randomizeAccuracy()');  //  #CallBack!
@@ -49,11 +49,3 @@ document.body.appendChild(fire);
 
 
 
-
-});
-
-
-
-
-
-}
